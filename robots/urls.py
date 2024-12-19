@@ -5,5 +5,5 @@ app_name = 'robots'
 
 
 urlpatterns = [
-    path('robots/', views.create_robot, name='create_robot'),
+    path('', views.create_robot, name='create_robot'),
 ]
